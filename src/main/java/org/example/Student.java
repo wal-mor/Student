@@ -3,12 +3,13 @@ package org.example;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Student {
+public abstract class Student {
+
 
     private int id;
     private String name;
 
-
+public abstract void getGrade();
     public int getId(){
 
         return id;
@@ -24,7 +25,6 @@ public class Student {
     }
 
     public Student() {
-
     }
 
     public Student(int id, String name){

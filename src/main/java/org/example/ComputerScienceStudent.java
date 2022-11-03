@@ -6,6 +6,9 @@ public class ComputerScienceStudent extends Student {
 
     private boolean good_in_java;
     private int IQ;
+    public void getGrade(){
+        System.out.println("you have bad grade");
+    }
 
     public ComputerScienceStudent(int id, String name, boolean good_in_java,int IQ) {
         super(id, name);
